@@ -23,7 +23,7 @@ LITER_NAME = "Litre"
 PROCESSED_BARCODES_FILEPATH = "./processed_barcodes.txt"
 
 # If there is no conversion from the stock unit to grams or milliliters, ask the user before adding it automatically
-ASK_BEFORE_ADDING_CONVERSION = False
+ASK_BEFORE_ADDING_CONVERSION = True
 
 
 def request_grocy(call_url, data=None, method="put"):
